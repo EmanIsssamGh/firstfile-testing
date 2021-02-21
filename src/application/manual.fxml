@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ManualController">
+   <children>
+      <Pane fx:id="pane" layoutX="125.0" layoutY="74.0" prefHeight="317.0" prefWidth="766.0">
+         <children>
+            <Pane fx:id="p7" prefHeight="101.0" prefWidth="251.0">
+               <children>
+                  <TextField layoutY="2.0" prefHeight="31.0" prefWidth="83.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" />
+                  <TextField layoutX="83.0" layoutY="2.0" prefHeight="31.0" prefWidth="83.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" />
+                  <TextField layoutX="166.0" layoutY="2.0" prefHeight="31.0" prefWidth="83.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" />
+                  <TextField layoutY="33.0" prefHeight="31.0" prefWidth="83.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" />
+                  <TextField layoutX="83.0" layoutY="33.0" prefHeight="31.0" prefWidth="83.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" />
+                  <TextField layoutX="166.0" layoutY="33.0" prefHeight="31.0" prefWidth="83.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" />
+                  <TextField layoutY="64.0" prefHeight="31.0" prefWidth="83.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" />
+                  <TextField layoutX="83.0" layoutY="64.0" prefHeight="31.0" prefWidth="83.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" />
+                  <TextField layoutX="166.0" layoutY="64.0" prefHeight="31.0" prefWidth="83.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" />
+               </children>
+            </Pane>
+            <Pane fx:id="p4" layoutX="251.0" prefHeight="101.0" prefWidth="251.0">
+               <children>
+                  <TextField layoutY="2.0" prefHeight="31.0" prefWidth="83.0" />
+                  <TextField layoutX="83.0" layoutY="2.0" prefHeight="31.0" prefWidth="83.0" />
+                  <TextField layoutX="166.0" layoutY="2.0" prefHeight="31.0" prefWidth="83.0" />
+                  <TextField layoutY="33.0" prefHeight="31.0" prefWidth="83.0" />
+                  <TextField layoutX="83.0" layoutY="33.0" prefHeight="31.0" prefWidth="83.0" />
+                  <TextField layoutX="166.0" layoutY="33.0" prefHeight="31.0" prefWidth="83.0" />
+                  <TextField layoutY="64.0" prefHeight="31.0" prefWidth="83.0" />
+                  <TextField layoutX="83.0" layoutY="64.0" prefHeight="31.0" prefWidth="83.0" />
+                  <TextField layoutX="166.0" layoutY="64.0" prefHeight="31.0" prefWidth="83.0" />
+               </children>
+            </Pane>
+            <Pane fx:id="p3" layoutX="502.0" prefHeight="101.0" prefWidth="251.0">
+               <children>
+                  <TextField layoutY="2.0" prefHeight="31.0" prefWidth="83.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" />
+                  <TextField layoutX="83.0" layoutY="2.0" prefHeight="31.0" prefWidth="83.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" />
+                  <TextField layoutX="166.0" layoutY="2.0" prefHeight="31.0" prefWidth="83.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" />
+                  <TextField layoutY="33.0" prefHeight="31.0" prefWidth="83.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" />
+                  <TextField layoutX="83.0" layoutY="33.0" prefHeight="31.0" prefWidth="83.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" />
+                  <TextField layoutX="166.0" layoutY="33.0" prefHeight="31.0" prefWidth="83.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" />
+                  <TextField layoutY="64.0" prefHeight="31.0" prefWidth="83.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" />
+                  <TextField layoutX="83.0" layoutY="64.0" prefHeight="31.0" prefWidth="83.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" />
+                  <TextField layoutX="166.0" layoutY="64.0" prefHeight="31.0" prefWidth="83.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" />
+               </children>
+            </Pane>
+            <Pane fx:id="p2" layoutY="95.0" prefHeight="101.0" prefWidth="251.0">
+               <children>
+                  <TextField layoutY="2.0" prefHeight="31.0" prefWidth="83.0" />
+                  <TextField layoutX="83.0" layoutY="2.0" prefHeight="31.0" prefWidth="83.0" />
+                  <TextField layoutX="166.0" layoutY="2.0" prefHeight="31.0" prefWidth="83.0" />
+                  <TextField layoutY="33.0" prefHeight="31.0" prefWidth="83.0" />
+                  <TextField layoutX="83.0" layoutY="33.0" prefHeight="31.0" prefWidth="83.0" />
+                  <TextField layoutX="166.0" layoutY="33.0" prefHeight="31.0" prefWidth="83.0" />
+                  <TextField layoutY="64.0" prefHeight="31.0" prefWidth="83.0" />
+                  <TextField layoutX="83.0" layoutY="64.0" prefHeight="31.0" prefWidth="83.0" />
+                  <TextField layoutX="166.0" layoutY="64.0" prefHeight="31.0" prefWidth="83.0" />
+               </children>
+            </Pane>
+            <Pane fx:id="p1" layoutX="251.0" layoutY="95.0" prefHeight="101.0" prefWidth="251.0">
+               <children>
+                  <TextField layoutY="2.0" prefHeight="31.0" prefWidth="83.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" />
+                  <TextField layoutX="83.0" layoutY="2.0" prefHeight="31.0" prefWidth="83.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" />
+                  <TextField layoutX="166.0" layoutY="2.0" prefHeight="31.0" prefWidth="83.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" />
+                  <TextField layoutY="33.0" prefHeight="31.0" prefWidth="83.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" />
+                  <TextField layoutX="83.0" layoutY="33.0" prefHeight="31.0" prefWidth="83.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" />
+                  <TextField layoutX="166.0" layoutY="33.0" prefHeight="31.0" prefWidth="83.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" />
+                  <TextField layoutY="64.0" prefHeight="31.0" prefWidth="83.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" />
+                  <TextField layoutX="83.0" layoutY="64.0" prefHeight="31.0" prefWidth="83.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" />
+                  <TextField layoutX="166.0" layoutY="64.0" prefHeight="31.0" prefWidth="83.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" />
+               </children>
+            </Pane>
+            <Pane fx:id="p8" layoutX="502.0" layoutY="95.0" prefHeight="101.0" prefWidth="251.0">
+               <children>
+                  <TextField layoutY="2.0" prefHeight="31.0" prefWidth="83.0" />
+                  <TextField layoutX="83.0" layoutY="2.0" prefHeight="31.0" prefWidth="83.0" />
+                  <TextField layoutX="166.0" layoutY="2.0" prefHeight="31.0" prefWidth="83.0" />
+                  <TextField layoutY="33.0" prefHeight="31.0" prefWidth="83.0" />
+                  <TextField layoutX="83.0" layoutY="33.0" prefHeight="31.0" prefWidth="83.0" />
+                  <TextField layoutX="166.0" layoutY="33.0" prefHeight="31.0" prefWidth="83.0" />
+                  <TextField layoutY="64.0" prefHeight="31.0" prefWidth="83.0" />
+                  <TextField layoutX="83.0" layoutY="64.0" prefHeight="31.0" prefWidth="83.0" />
+                  <TextField layoutX="166.0" layoutY="64.0" prefHeight="31.0" prefWidth="83.0" />
+               </children>
+            </Pane>
+            <Pane fx:id="p5" layoutY="189.0" prefHeight="101.0" prefWidth="251.0">
+               <children>
+                  <TextField layoutY="2.0" prefHeight="31.0" prefWidth="83.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" />
+                  <TextField layoutX="83.0" layoutY="2.0" prefHeight="31.0" prefWidth="83.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" />
+                  <TextField layoutX="166.0" layoutY="2.0" prefHeight="31.0" prefWidth="83.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" />
+                  <TextField layoutY="33.0" prefHeight="31.0" prefWidth="83.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" />
+                  <TextField layoutX="83.0" layoutY="33.0" prefHeight="31.0" prefWidth="83.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" />
+                  <TextField layoutX="166.0" layoutY="33.0" prefHeight="31.0" prefWidth="83.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" />
+                  <TextField layoutY="64.0" prefHeight="31.0" prefWidth="83.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" />
+                  <TextField layoutX="83.0" layoutY="64.0" prefHeight="31.0" prefWidth="83.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" />
+                  <TextField layoutX="166.0" layoutY="64.0" prefHeight="31.0" prefWidth="83.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" />
+               </children>
+            </Pane>
+            <Pane fx:id="p6" layoutX="251.0" layoutY="189.0" prefHeight="101.0" prefWidth="251.0">
+               <children>
+                  <TextField layoutY="2.0" prefHeight="31.0" prefWidth="83.0" />
+                  <TextField layoutX="83.0" layoutY="2.0" prefHeight="31.0" prefWidth="83.0" />
+                  <TextField layoutX="166.0" layoutY="2.0" prefHeight="31.0" prefWidth="83.0" />
+                  <TextField layoutY="33.0" prefHeight="31.0" prefWidth="83.0" />
+                  <TextField layoutX="83.0" layoutY="33.0" prefHeight="31.0" prefWidth="83.0" />
+                  <TextField layoutX="166.0" layoutY="33.0" prefHeight="31.0" prefWidth="83.0" />
+                  <TextField layoutY="64.0" prefHeight="31.0" prefWidth="83.0" />
+                  <TextField layoutX="83.0" layoutY="64.0" prefHeight="31.0" prefWidth="83.0" />
+                  <TextField layoutX="166.0" layoutY="64.0" prefHeight="31.0" prefWidth="83.0" />
+               </children>
+            </Pane>
+            <Pane fx:id="p9" layoutX="502.0" layoutY="189.0" prefHeight="101.0" prefWidth="251.0">
+               <children>
+                  <TextField layoutY="2.0" prefHeight="31.0" prefWidth="83.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" />
+                  <TextField layoutX="83.0" layoutY="2.0" prefHeight="31.0" prefWidth="83.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" />
+                  <TextField layoutX="166.0" layoutY="2.0" prefHeight="31.0" prefWidth="83.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" />
+                  <TextField layoutY="33.0" prefHeight="31.0" prefWidth="83.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" />
+                  <TextField layoutX="83.0" layoutY="33.0" prefHeight="31.0" prefWidth="83.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" />
+                  <TextField layoutX="166.0" layoutY="33.0" prefHeight="31.0" prefWidth="83.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" />
+                  <TextField layoutY="64.0" prefHeight="31.0" prefWidth="83.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" />
+                  <TextField layoutX="83.0" layoutY="64.0" prefHeight="31.0" prefWidth="83.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" />
+                  <TextField layoutX="166.0" layoutY="64.0" prefHeight="31.0" prefWidth="83.0" style="-fx-background-color: lightgray; -fx-border-color: gray;" />
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Button fx:id="back" layoutX="744.0" layoutY="506.0" mnemonicParsing="false" onAction="#doneClicked" prefHeight="31.0" prefWidth="128.0" text="Done" />
+   </children>
+</Pane>
